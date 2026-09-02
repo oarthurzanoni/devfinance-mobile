@@ -1,38 +1,40 @@
-<p align="center">
-  <img src="/.github/logo.svg" width="96" />
-</p>
+# Dev Finance Mobile
 
-<h1 align="center">
-  DevFinance Mobile
-</h1>
+A React Native adaptation of the Dev Finance personal finance tracker.
 
-A React Native version of [DevFinance](https://mitacho.github.io/devfinance)
+## Project goal
 
-## Layout
+Recreate a browser-based finance experience as a native mobile application while practicing navigation, local persistence and component-based UI development.
 
-<img src="/.github/home.svg" width="280" />
+## Features
 
-<img src="/.github/settings.svg" width="280" />
+- Record income and expense transactions
+- Persist data locally
+- Navigate between application screens
+- Run as a native Android or iOS app
 
-## Android Developer Instructions
+## Technologies
 
-**clone and install dependencies**
+- **TypeScript**
+- **React Native**
+- **React Navigation**
+- **AsyncStorage**
+- **React Native SVG**
 
-```bash
-git clone https://github.com/Mitacho/devfinance-mobile.git
-yarn install
-```
+## What I learned
 
-**run the React Native app**
+- Adapting a web product to mobile interaction patterns
+- Managing local state and persistence in React Native
+- Building navigation flows
+- Creating reusable native components
 
-open a terminal instance and type the following command in the project root folder:
-
-```bash
-yarn start
-```
-
-open another terminal instance and type the following command in the project root folder:
+## Running locally
 
 ```bash
-yarn android
+npm install
+npm start
 ```
+
+## Project status
+
+This is a learning and experimentation repository. It documents the concepts practiced at the time and is not presented as a production-ready application.
